@@ -8,11 +8,11 @@ public class AreaOfaTriangleHeronsFormula {
 
 		Scanner sc = new Scanner(System.in);
 
-		System.out.println("Введите длину стороны A треугольника ABC (см):");
+		System.out.println("Г‚ГўДєГ¤ДЌЕ€Дє Г¤Г«ДЌГ­Гі Е„Е€Г®Д‘Г®Г­Е± A Е€Д‘ДєГіДѓГ®Г«ГјГ­ДЌД™Е• ABC (Е„Д›):");
 		double a = sc.nextDouble();
-		System.out.println("Введите длину стороны B треугольника ABC (см):");
+		System.out.println("Г‚ГўДєГ¤ДЌЕ€Дє Г¤Г«ДЌГ­Гі Е„Е€Г®Д‘Г®Г­Е± B Е€Д‘ДєГіДѓГ®Г«ГјГ­ДЌД™Е• ABC (Е„Д›):");
 		double b = sc.nextDouble();
-		System.out.println("Введите длину стороны C треугольника ABC (см):");
+		System.out.println("Г‚ГўДєГ¤ДЌЕ€Дє Г¤Г«ДЌГ­Гі Е„Е€Г®Д‘Г®Г­Е± C Е€Д‘ДєГіДѓГ®Г«ГјГ­ДЌД™Е• ABC (Е„Д›):");
 		double c = sc.nextDouble();
 		double area;
 		double p;
@@ -21,8 +21,11 @@ public class AreaOfaTriangleHeronsFormula {
 
 		area = Math.sqrt(p * (p - a) * (p - b) * (p - c));
 
-		System.out.println("Площадь треугольника " + area + " см2");
+		System.out.println("ДЋГ«Г®ЕЇЕ•Г¤Гј Е€Д‘ДєГіДѓГ®Г«ГјГ­ДЌД™Е• " + area + " Е„Д›2");
 
 	}
 
 }
+
+2)РќР°РїРёСЃР°С‚СЊ РїСЂРѕРіСЂР°РјРјСѓ РєРѕС‚РѕСЂР°СЏ РІС‹С‡РёСЃР»РёС‚ Рё РІС‹РІРµРґРµС‚ РЅР° СЌРєСЂР°РЅ 
+РїР»РѕС‰Р°РґСЊ С‚СЂРµСѓРіРѕР»СЊРЅРёРєР° РµСЃР»Рё РёР·РІРµСЃС‚РЅС‹ РµРіРѕ СЃС‚РѕСЂРѕРЅС‹.
