@@ -1,3 +1,11 @@
+lesson_2_1
+A program that calculates and displays the amount spent on fuel, 
+if known: fuel price per 1 liter, consumption and travel distance
+
+lesson_2_2
+A program that calculates and displays the amount spent on fuel 
+if the price for 1 liter of fuel and the travel distance are read from the keyboard
+
 1) Написать программу которая считывает 5-и значное число с 
 клавиатуры и выводит цифры из которого оно состоит. 
 Например : Считывается число 54698
