@@ -1,3 +1,5 @@
+//A program that calculates and displays the amount spent on fuel, if known: fuel price per 1 liter, consumption and travel distance
+
 package lesson_2_1;
 
 public class TotalSumPetrolKyivOdesa {
@@ -13,5 +15,4 @@ public class TotalSumPetrolKyivOdesa {
 
 		System.out.println(totalSum + " UAH");
 	}
-
 }
