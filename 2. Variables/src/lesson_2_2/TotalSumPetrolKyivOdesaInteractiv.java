@@ -1,27 +1,28 @@
+//A program that calculates and displays the amount spent on fuel if the price for 1 liter of fuel and the travel distance are read from the keyboard
+
 package lesson_2_2;
 
-import java.util.Scanner; //Импортируем сканер, (подключаем сканер)
+import java.util.Scanner; //Importing an additional package Scanner
 
 public class TotalSumPetrolKyivOdesaInteractiv {
 
 	public static void main(String[] args) {
 
-		Scanner sc = new Scanner(System.in); // Инициализируем сканер. Обозначаем Тип переменной "Scanner", указываем
-												// сканеру откуда читать данные (System.in - с клавиатуры)
-		System.out.println("Введите стоимость 1л топлива (UAH):"); // Если хотим, чтобы пользователь ввел переменую с
-																	// клавиатуры
+		Scanner sc = new Scanner(System.in); // Create an object of class Scanner. We initialize the scanner. We designate the Type of the variable as "Scanner", indicate to the scanner where to read the data (System.in - from the keyboard)
+
+		System.out.println("Enter the cost of 1 liter of fuel (UAH):");
+		// If we want the user to enter a variable from the keyboard
 		double fuilPrice = sc.nextDouble();
-		double fuilR = 8;
-		System.out.println("Введите расстояние поездки (км):"); // Если хотим, чтобы пользователь ввел переменую с
-																// клавиатуры
-		int distance = sc.nextInt(); // Вместо значения переменной указываем Сканер. Тип сканера зависит от типа
-										// переменной
+		double fuelConsumption = 8;
+
+		System.out.println("Enter travel distance (km):");
+		// If we want the user to enter a variable from the keyboard
+		int distance = sc.nextInt(); // Instead of the value of the variable, specify the Scanner. Scanner type depends on variable type
+		
 		double totalSum;
 
-		totalSum = fuilR / 100 * fuilPrice * distance * 2;
+		totalSum = fuelConsumption / 100 * fuilPrice * distance * 2;
 
-		System.out.println("Сумма поездки " + totalSum + " UAH");
-
+		System.out.println("Travel amount " + totalSum + " UAH");
 	}
-
 }
