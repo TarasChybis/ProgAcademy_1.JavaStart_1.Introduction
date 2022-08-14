@@ -1,3 +1,6 @@
+//2)Write a program that calculates and displays
+//area of a triangle if its sides are known.
+
 package home_work_2_2;
 
 public class AreaOfaTriangleHeronsFormulaOnTheScreen {
@@ -14,11 +17,6 @@ public class AreaOfaTriangleHeronsFormulaOnTheScreen {
 
 		s = Math.sqrt(p * (p - a) * (p - b) * (p - c));
 
-		System.out.println("Ďëîůŕäü ňđĺóăîëüíčęŕ " + s + " ńě2");
-
+		System.out.println("Area of ​​a triangle " + s + " cm2");
 	}
-
 }
-
-2)Написать программу которая вычислит и выведет на экран 
-площадь треугольника если известны его стороны.
