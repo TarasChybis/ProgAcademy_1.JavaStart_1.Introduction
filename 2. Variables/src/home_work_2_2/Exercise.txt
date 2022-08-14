@@ -1,0 +1,2 @@
+2)Write a program that calculates and displays
+area of a triangle if its sides are known.
