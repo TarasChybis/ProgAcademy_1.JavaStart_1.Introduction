@@ -1,3 +1,5 @@
+//A program that displays the day of the week by entering a number on the keyboard.
+
 package lesson_3_2;
 
 import java.util.Scanner;
@@ -13,62 +15,60 @@ public class DayWeekJanuary2022 {
 		System.out.println("Input number from 1 to 31");
 		day = sc.nextInt();
 
-		// Âàğèàíò switch-case-break-default
+		// Option: switch-case-break-default
 		
 		if (day >= 1 && day <= 31) {
 			
 			switch (day % 7) {
 			case 3:
-				System.out.println("Ïîíåäåëüíèê");
+				System.out.println("Monday");
 				break;
 			case 4:
-				System.out.println("Âòîğíèê");
+				System.out.println("Tuesday");
 				break;
 			case 5:
-				System.out.println("Ñğåäà");
+				System.out.println("Wednesday");
 				break;
 			case 6:
-				System.out.println("×åòâåğã");
+				System.out.println("Thursday");
 				break;
 			case 0:
-				System.out.println("Ïÿòíèöà");
+				System.out.println("Friday");
 				break;
 			case 1:
-				System.out.println("Ñóááîòà");
+				System.out.println("Saturday");
 				break;
 			case 2:
-				System.out.println("Âîñêğåñåíüå");
+				System.out.println("Sunday");
 				break;
 			}
 						
 		} else {
-			System.out.println("Îøèáêà ââîäà");
+			System.out.println("Input Error");
 		}
 
-		// Âàğèàíò if - else if - else
+		// Option: if - else if - else
 		
 		if (day >= 1 && day <= 31) {
 
 			if (day % 7 == 3) {
-				System.out.println("Ïîíåäåëüíèê");
+				System.out.println("Monday");
 			} else if (day % 7 == 4) {
-				System.out.println("Âòîğíèê");
+				System.out.println("Tuesday");
 			} else if (day % 7 == 5) {
-				System.out.println("Ñğåäà");
+				System.out.println("Wednesday");
 			} else if (day % 7 == 6) {
-				System.out.println("×åòâåğã");
+				System.out.println("Thursday");
 			} else if (day % 7 == 0) {
-				System.out.println("Ïÿòíèöà");
+				System.out.println("Friday");
 			} else if (day % 7 == 1) {
-				System.out.println("Ñóááîòà");
+				System.out.println("Saturday");
 			} else if (day % 7 == 2) {
-				System.out.println("Âîñêğåñåíüå");
+				System.out.println("Sunday");
 			} 
 			
 		} else {
-			System.out.println("Îøèáêà ââîäà");
+			System.out.println("Input Error");
 		}
-
 	}
-
 }
