@@ -1,3 +1,5 @@
+//A program that determines and assigns the Max value to the largest number entered from the keyboard.
+
 package lesson_3_1;
 
 import java.util.Scanner;
