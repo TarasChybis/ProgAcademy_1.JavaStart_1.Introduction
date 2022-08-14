@@ -1,11 +1,11 @@
 //1) Write a program that reads a 5 digit number from
 //keyboard and displays the digits from which it consists. 
 //For example: The number is read 54698
-//Output (displays):5
-//            		4
-//            		6
-//            		9
-//            		8
+//Output (displays):	5
+//            			4
+//            			6
+//            			9
+//            			8
 
 package home_work_2_1;
 
