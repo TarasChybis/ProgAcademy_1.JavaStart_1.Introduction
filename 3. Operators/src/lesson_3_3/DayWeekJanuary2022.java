@@ -1,6 +1,6 @@
-//A program that displays the day of the week by entering a number on the keyboard.
+// A program that displays on the screen the day of the week by entering on the keyboard the number of January 2022.
 
-package lesson_3_2;
+package lesson_3_3;
 
 import java.util.Scanner;
 
