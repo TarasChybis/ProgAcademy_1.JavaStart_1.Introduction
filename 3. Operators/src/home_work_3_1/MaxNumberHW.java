@@ -1,3 +1,5 @@
+//A program that counts 4 numbers from the keyboard and displays the largest of them.
+
 package home_work_3_1;
 
 import java.util.Scanner;
@@ -37,7 +39,5 @@ public class MaxNumberHW {
 			max = d;
 		}
 		System.out.println("Max = " + max);
-
 	}
-
 }
