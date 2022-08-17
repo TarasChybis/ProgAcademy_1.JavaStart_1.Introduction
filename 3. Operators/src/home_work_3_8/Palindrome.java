@@ -1,3 +1,7 @@
+//A six-digit number is entered from the keyboard. Check if it is a palindrome (For example, the number 143341).
+
+//Note: A palindrome is a number, word, or text that reads the same from left to right and from right to left. For example, these are the numbers 143341, 5555, 7117, etc.
+
 package home_work_3_8;
 
 import java.util.Scanner;
@@ -16,7 +20,7 @@ public class Palindrome {
 		int f;
 		int s;
 		
-		System.out.println("Введите шестизначное число (Например: 143341");
+		System.out.println("Enter a six-digit number (For example: 143341");
 		s = sc.nextInt();
 		
 		a = s / 100000;
@@ -28,14 +32,12 @@ public class Palindrome {
 		
 		if(s >= 99999 && s <= 999999) {
 			if(a == f && b == e && c == d) {
-				System.out.println("Палиндром");
+				System.out.println("Palindrome");
 			} else {
-				System.out.println("Обычное число");
+				System.out.println("Regular number");
 			}
 		} else {
-			System.out.println("Введите шестизначное число");
+			System.out.println("Enter a six-digit number");
 		}
-		
 	}
-
 }
