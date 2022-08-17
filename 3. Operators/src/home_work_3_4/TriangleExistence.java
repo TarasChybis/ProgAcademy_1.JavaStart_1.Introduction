@@ -1,3 +1,5 @@
+//A triangle only exists if the sum of any two of its sides is greater than the third. Given a, b, c - the sides of the proposed triangle. The program indicates whether such a triangle exists or not.
+
 package home_work_3_4;
 
 import java.util.Scanner;
@@ -22,11 +24,9 @@ public class TriangleExistence {
 		c = sc.nextInt();
 				
 		if(a + b > c && a + c > b && b + c > a) {
-			System.out.println("Треугольник существует");
+			System.out.println("Triangle exists");
 		} else {
-			System.out.println("Треугольник НЕ существует");
+			System.out.println("Triangle does NOT exist");
 		}
-
 	}
-
 }
