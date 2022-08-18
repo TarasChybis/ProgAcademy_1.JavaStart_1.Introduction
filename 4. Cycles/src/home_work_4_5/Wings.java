@@ -1,3 +1,13 @@
+//Using a loop (only one) draw an “inverted triangle” shape from *. Moreover, the maximum height of this figure is entered from the keyboard. For example, the maximum height is 4.
+//
+//*
+//**
+//***
+//****
+//***
+//**
+//*
+
 package home_work_4_5;
 
 import java.util.Scanner;
