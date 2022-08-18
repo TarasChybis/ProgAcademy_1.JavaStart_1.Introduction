@@ -1,4 +1,5 @@
-// Дан массив {0,5,2,4,7,1,3,19} - написать программу для подсчета нечетных цифер в нем.
+//An array {0,5,2,4,7,1,3,19} is given. 
+//Write a program to count the odd digits in it.
 
 package home_work_5_1;
 
@@ -19,5 +20,4 @@ public class OddNumbers {
 		}
 		System.out.println(b);
 	}
-
 }
