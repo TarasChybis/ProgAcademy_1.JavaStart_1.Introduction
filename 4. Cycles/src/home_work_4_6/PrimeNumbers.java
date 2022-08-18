@@ -1,10 +1,13 @@
+//Use loops to display all prime numbers from 1 to 100 ()
+//A prime number is a number that is only divisible by 1 or itself. The first prime numbers are 2, 3, 5, 7вЂ¦
+
 package home_work_4_6;
 
 public class PrimeNumbers {
 
 	public static void main(String[] args) {
 		
-//		Вариант 1
+//		Option 1
 		
 //		int a = 0;
 //		
@@ -20,7 +23,7 @@ public class PrimeNumbers {
 //            a = 0;
 //        }
 
-//      Вариант 2
+//      Option 2
         
         for (int i = 1; i <= 100; i++) {
 			boolean a = false;
