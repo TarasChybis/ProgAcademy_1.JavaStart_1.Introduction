@@ -1,7 +1,6 @@
-//Задача: Считать с клавиатуры 2 переменные типа int (a, b). Если b>a, то вычислить сумму целых чисел
-//от a до b включительно.
+//Task: Read from the keyboard 2 variables of type int (a, b). If b>a, then calculate the sum of integers from a to b inclusive.
 //a = 2, b = 5 => sum = 2 + 3 + 4 + 5 = 14
-//Если a <= b, то вывести надпись ошибка ввода.
+//If a <= b, then display an input error message.
 
 package lesson_4_2;
 
@@ -30,7 +29,7 @@ public class Cycle_Exercise_2 {
 			}
 			System.out.println("Sum = " + sum);
 		} else {
-			System.out.println("Ошибка ввода");
+			System.out.println("Input Error");
 		}
 	}
 }
