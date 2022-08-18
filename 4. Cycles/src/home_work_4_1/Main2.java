@@ -1,3 +1,5 @@
+//With the help of cycles draw “wallpaper”. Moreover, the number of bands must be entered from the keyboard. In the example there are 7 bands.
+
 package home_work_4_1;
 
 import java.util.Scanner;
@@ -23,7 +25,5 @@ public class Main2 {
 			}
 			System.out.println();
 		}
-
 	}
-
 }
