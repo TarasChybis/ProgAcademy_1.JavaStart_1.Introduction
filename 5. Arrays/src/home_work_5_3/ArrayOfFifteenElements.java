@@ -1,10 +1,7 @@
-//Создать массив случайных чисел (размером 15 элементов).
-//Создайте второй массив в два раза больше, 
-//первые 15 элементов должны быть равны элементам первого массива,
-//а остальные элементы заполнить удвоенных значением начальных.
-//Например:
-//Было  - 1, 4, 7, 2
-//Стало - 1, 4, 7, 2, 2, 8, 14, 4
+//Create an array of random numbers (size 15 elements). Create a 2nd array twice as large, the first 15 elements should be equal to the elements of the first array, and fill the remaining elements with twice the value of the initial
+//For example:
+//Before в†’ {1,4,7,2}
+//Now    в†’ {1,4,7,2,2,8,14,4}
 
 package home_work_5_3;
 
