@@ -1,3 +1,5 @@
+//Strings
+
 package lesson_5_06;
 
 public class String_1 {
@@ -14,5 +16,4 @@ public class String_1 {
 		System.out.println(a == b);
 		System.out.println(a.equals(b));
 	}
-
 }
