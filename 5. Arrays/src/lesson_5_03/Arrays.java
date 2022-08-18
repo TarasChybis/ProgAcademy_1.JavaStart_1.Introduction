@@ -4,68 +4,68 @@ public class Arrays {
 
 	public static void main(String[] args) {
 		
-		// Тип C++ подход
+		// C++ type approach
 	
-		double arr1[]; // одномерный массив
-		double arr2[][]; // двумерный массив
-		double arr3[][][]; // трехмерный массив
-		double arr4[][][][]; // четырехмерный массив
+		double arr1[]; // one-dimensional array
+		double arr2[][]; // two-dimensional array
+		double arr3[][][]; // 3D array
+		double arr4[][][][]; // four-dimensional array
 
-		// Тип Java подход
+		// Java type approach
 
-		int[] arr5; // одномерный массив
-		int[][] arr6; // двумерный массив
-		int[][][] arr7; // трехмерный массив
-		int[][][][] arr8; // четырехмерный массив
+		int[] arr5; // one-dimensional array
+		int[][] arr6; // two-dimensional array
+		int[][][] arr7; // 3D array
+		int[][][][] arr8; // four-dimensional array
 
-		// Инициализация
-		// Вариант 1 (когда знаем количество элементов, но не знаем чему они равны)
+		// Initialization
+		// Option 1 (when we know the number of elements, but we donвЂ™t know what they are equal to)
 
 		int[] arr9;
 		int size = 12;
 		arr9 = new int[12];
-		// Либо
+		// Or
 		arr9 = new int[size];
-		// Либо в одну строчку
+		// Or one line
 		int[] arr10 = new int[12];
 
-		// Инициализация
-		// Вариант 2 (когда знаем количество элементов, и знаем чему они равны)
+		// Initialization
+		// Option 2 (when we know the number of elements, and we know what they are equal to)
 
 		int[] arr11;
 		arr11 = new int[] { 7, 2, 10, -1, 0 };
 
-		// Либо в одну строчку
+		// Or one line
 
 		int[] arr12 = new int[] { 7, 2, 10, -1, 0 };
 
-		// Либо в одну строчку сокращенно
+		// Or one line abbreviated
 
 		int[] arr13 = { 7, 2, 10, -1, 0 };
 
-		// Для того, что бы считать значение из массива
+		// To read a value from an array
 		
 		int temp1 = arr13[2];
 		System.out.println(temp1);
 		
-		// Для того, что бы переписать значение из массива
+		// To overwrite a value from an array
 		
 		arr13[2] = 15;
 		int temp2 = arr13[2];
 		System.out.println(temp2);
 		
-		// Длину массива можно узнать
+		// You can find the length of an array
 		
 		int s = arr13.length;
 		System.out.println(s);
 		
-		// Вывести цифры из всего массива
+		// Remove numbers from the entire array
 		
 		for (int i = 0; i < arr13.length; i++) {
 			System.out.println(arr13[i]);
 		}
 		
-		// Увеличим на единицу каждое значение массива
+		// Increment each array value by one
 		
 		for (int i = 0; i < arr13.length; i++) {
 			arr13[i] = arr13[i] + 1;
@@ -74,11 +74,11 @@ public class Arrays {
 			System.out.println(arr13[i]);
 		}
 		
-		// Для того, что бы узнать класс объекта
+		// To find out the class of an object
 		
-		System.out.println(arr13.getClass()); // объект по этой ссылке принадлежит классу для хранения массива интов
+		System.out.println(arr13.getClass()); // the object at this link belongs to a class for storing an array of ints
 		
-		// Если ссылку вывести на экран, то автоматически запускается метод toString
+		// If the link is displayed on the screen, then the toString method is automatically launched
 		
 		System.out.println(arr13);
 	}
