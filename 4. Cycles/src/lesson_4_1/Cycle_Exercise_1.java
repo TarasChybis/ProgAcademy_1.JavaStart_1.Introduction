@@ -13,7 +13,7 @@ public class Cycle_Exercise_1 {
 		
 //		while (number <= 10) {
 //			System.out.println(number);
-//			number += 1;                    //number += 1 тоже что и number = number + 1
+//			number += 1;                    //number += 1 :the same as: number = number + 1
 //		}
 
 //		do {
@@ -21,10 +21,8 @@ public class Cycle_Exercise_1 {
 //			number += 1;
 //		} while (number <= 10);
 
-//		for (int i = 1; i <= 10; i++) {     // i++ тоже что и i += 1 тоже что и i = i + 1 блок преращения (блок инкриментов)
+//		for (int i = 1; i <= 10; i++) {     // i++ :the same as: i += 1 :the same as: i = i + 1 Р±Р»РѕРє РїСЂРµСЂР°С‰РµРЅРёСЏ (Р±Р»РѕРє РёРЅРєСЂРёРјРµРЅС‚РѕРІ) : transformation block (increment block).
 //			System.out.println(i);
-//		}
-		
+//		}	
 	}
-
 }
