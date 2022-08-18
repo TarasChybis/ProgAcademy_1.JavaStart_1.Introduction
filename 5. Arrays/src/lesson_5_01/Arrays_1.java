@@ -1,3 +1,6 @@
+//Create an array of 12 random salaries.
+//Calculate the value of the average salary.
+
 package lesson_5_01;
 
 import java.util.Arrays;
