@@ -1,5 +1,5 @@
-//¬вести с клавиатуры число (до миллиарда), которое обозначает количество долларов и центов пользовател€. ¬ывести это колличество прописью.
-//Ќапример:
+//Enter from the keyboard a number (up to a billion), which indicates the number of dollars and cents of the user. Write this number in words.
+//For example:
 //How much money do you have?
 //123,34
 //You have: one hundred twenty three dollars thirty four cents.
