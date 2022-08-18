@@ -1,9 +1,9 @@
-//С клавиатуры считать челое число int w;
-//Вывести на экран в строке столько * чему равно значение этой переменной.
-//Например w=5
+//Count an integer from the keyboard int w;
+//Display as many * as the value of this variable in a line.
+//For example w=5
 //
 //*****
-//Для вывода на экран без пеевода строки используйте System.out.print();
+//To print to the screen without a line feed, use System.out.print();
 
 package lesson_4_3;
 
@@ -22,8 +22,6 @@ public class Cycle_Exercise_3 {
 		
 		for(int i = 1; i <= w; i++) {
 			System.out.println("*");
-		}
-		
+		}	
 	}
-
 }
