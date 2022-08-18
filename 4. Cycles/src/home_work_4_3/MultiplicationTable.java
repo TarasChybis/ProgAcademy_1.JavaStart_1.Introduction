@@ -1,3 +1,6 @@
+//Print the times table for 5. It is preferable to print 1 x 5 = 5, 2 x 5 = 10, not just 5, 10, etc.
+
+//Option 1
 package home_work_4_3;
 
 public class MultiplicationTable {
@@ -13,7 +16,7 @@ public class MultiplicationTable {
 	}
 }
 
-//Вариант 2
+//Option 2
 //package chybis;
 //
 //public class MultiplicationTable {
@@ -31,4 +34,3 @@ public class MultiplicationTable {
 //		}
 //	}
 //}
-
