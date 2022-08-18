@@ -1,17 +1,17 @@
-//С клавиатуры считать челое число int w;
-//Вывести на экран в строке столько * чему равно значение этой переменной.
-//Например w=5
+//Read an integer from the keyboard int w;
+//Display on the screen as much * as the value of this variable.
+//For example w=5
 //
 //*****
-//Считать с клавиатуры целое число int h;
-//Вывести столько строк чему равно значение переменной h 
-//Например h=3
+//Read an integer from the keyboard int h;
+//Output as many lines as the value of variable h is equal to
+//For example h=3
 //
 //*****
 //*****
 //*****
 //
-//Для вывода на экран без пеевода строки используйте System.out.print();
+//To print to the screen without a line feed, use System.out.print();
 
 package lesson_4_4;
 
