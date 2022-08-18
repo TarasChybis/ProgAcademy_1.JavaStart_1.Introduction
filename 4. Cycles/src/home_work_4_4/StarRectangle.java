@@ -1,3 +1,5 @@
+//Display a rectangle from *. Moreover, the height and width of the rectangle are entered from the keyboard. For example, below is a rectangle with a height of 4 and a width of 5.
+
 package home_work_4_4;
 
 import java.util.Scanner;
@@ -30,4 +32,3 @@ public class StarRectangle {
 		}
 	}
 }
-
