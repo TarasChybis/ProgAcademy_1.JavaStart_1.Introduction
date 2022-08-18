@@ -1,6 +1,4 @@
-//¬ведите  строку  текста  с  клавиатуры  Ч  реализуйте  программу  дл€ 
-//возможности подсчета количества символа Ч 'b' в этой строке, с выводом 
-//результат на экран.
+//Enter a line of text from the keyboard - implement a program to be able to count the number of 'b' characters in this line, and print the result to the screen.
 
 package home_work_5_4;
 
@@ -28,5 +26,4 @@ public class AmountOfSymbols {
 		}
 		System.out.println("b = " + b);
 	}
-
 }
