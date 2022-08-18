@@ -1,11 +1,11 @@
-//“Перевернуть массив” . Т.е. написать программу, которая повернет базовый массив на 90, 180, 270 градусов по часовой стрелке. (При выполнении задания использовать дополнительный массив нельзя). В примере показан поворот массива на 90 градусов - (3 часа).
+//"Reverse array". Those. write a program that will rotate the underlying array 90, 180, 270 degrees clockwise. (You cannot use an additional array when executing a job.) The example shows the rotation of the array by 90 degrees - (3 hours).
 //
-//Было      [1, 2, 3, 4, 5, 6]                  Стало       [1, 1, 1, 1, 1, 1]
-//          [1, 2, 3, 4, 5, 6]                              [2, 2, 2, 2, 2, 2]
-//          [1, 2, 3, 4, 5, 6]                              [3, 3, 3, 3, 3, 3]
-//          [1, 2, 3, 4, 5, 6]                              [4, 4, 4, 4, 4, 4]
-//          [1, 2, 3, 4, 5, 6]                              [5, 5, 5, 5, 5, 5]
-//          [1, 2, 3, 4, 5, 6]                              [6, 6, 6, 6, 6, 6]
+//Before      [1, 2, 3, 4, 5, 6]                  Now       [1, 1, 1, 1, 1, 1]
+//            [1, 2, 3, 4, 5, 6]                            [2, 2, 2, 2, 2, 2]
+//            [1, 2, 3, 4, 5, 6]                            [3, 3, 3, 3, 3, 3]
+//            [1, 2, 3, 4, 5, 6]                            [4, 4, 4, 4, 4, 4]
+//            [1, 2, 3, 4, 5, 6]                            [5, 5, 5, 5, 5, 5]
+//            [1, 2, 3, 4, 5, 6]                            [6, 6, 6, 6, 6, 6]
 
 package home_work_5_5;
 
@@ -42,11 +42,10 @@ public class InvertedArray {
 				}
 			}
 			System.out.println();
-			System.out.println("превернуть на " + i * 90 + " градусов");
+			System.out.println("turn on " + i * 90 + " degrees");
 			for (int[] row : array) {
 				System.out.println(Arrays.toString(row));
 			}
 		}
 	}
-
 }
