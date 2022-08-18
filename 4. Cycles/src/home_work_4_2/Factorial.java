@@ -1,3 +1,5 @@
+//Calculate by loop the factorial of the number “ n ” entered from the keyboard (4<n<16). The factorial of a number is the product of all numbers from that number to 1. For example: 5! = 5*4*3*2*1 = 120
+
 package home_work_4_2;
 
 import java.util.Scanner;
