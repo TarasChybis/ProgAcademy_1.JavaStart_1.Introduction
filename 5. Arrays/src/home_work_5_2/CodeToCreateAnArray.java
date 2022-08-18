@@ -1,4 +1,4 @@
-//Ќаписать код дл€ возможности создани€ массива целых чисел (размер вводитс€ с клавиатуры) и возможности заполнени€ каждого его элемента вручную. ¬ыведите этот массив на экран.
+//Write code to be able to create an array of integers (the size is entered from the keyboard) and to be able to fill in each of its elements manually. Print this array to the screen.
 
 package home_work_5_2;
 
@@ -18,8 +18,6 @@ public class CodeToCreateAnArray {
 			System.out.println("enter a " + i + " arrays element");
 			arr1[i] = sc.nextInt();
 		}
-		System.out.println(Arrays.toString(arr1));
-		
+		System.out.println(Arrays.toString(arr1));	
 	}
-
 }
