@@ -1,13 +1,18 @@
-//Пользователь с клавиатуры вводит целое число int h = 4;
-//Нужно нарисовать фигуру вида
+//Read an integer from the keyboard int w;
+//Display on the screen as much * as the value of this variable.
+//For example w=5
 //
-//   * 1  i
+//*****
+//The user enters an integer from the keyboard int h = 4;
+//Need to draw a shape of the form
+//
+//   * 1 i
 //  ** 2
 // *** 3
 //**** 4
-//1234 
+//1234
 //
-//j
+// j
 
 package lesson_4_5;
 import java.util.Scanner;
@@ -32,7 +37,5 @@ public class Cycle_Exercise_5 {
 			}
 			System.out.println(" ");
 		}
-
 	}
-
 }
