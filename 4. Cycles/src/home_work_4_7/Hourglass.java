@@ -1,3 +1,5 @@
+//Display an "hourglass" whose maximum width is read from the keyboard (odd number). For example, the width is 5.
+
 package home_work_4_7;
 import java.util.Scanner;
 public class Hourglass {
@@ -8,7 +10,7 @@ public class Hourglass {
 		
 		int a;
 		
-		System.out.println("¬ведите нечетное число");
+		System.out.println("Enter an odd number");
 		a = sc.nextInt();
 
 		for (int j = 0; j <= a; j++) {
