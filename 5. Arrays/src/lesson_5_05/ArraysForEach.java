@@ -1,3 +1,5 @@
+//for each loop in arrays
+
 package lesson_5_05;
 
 public class ArraysForEach {
@@ -8,8 +10,6 @@ public class ArraysForEach {
 
 		for (int element:arr1) {
 			System.out.println(element);
-		}
-		
+		}	
 	}
-
 }
