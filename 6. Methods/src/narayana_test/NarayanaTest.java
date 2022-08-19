@@ -1,6 +1,5 @@
-//Существует  массив  {1,2,3,4,5}  —  размер  массива  может  быть 
-//произвольным.  Напишите  программу  которая  выведет  на  экран  все возможные  комбинации  из  этих  цифр.  
-//Внимание  повторений  быть не должно.(2 часа)
+//There is an array {1,2,3,4,5} - the size of the array can be
+//arbitrary. Write a program that will display all possible combinations of these numbers. Attention repetitions should not be. (2 hours)
 
 package narayana_test;
 
@@ -40,37 +39,3 @@ public class NarayanaTest {
         }
     }
 }
-//	// Основная программа
-//	public static void main(String[] args) {
-//		Scanner scanner = new Scanner(System.in);
-//		int count = scanner.nextInt();
-//		Integer[] sequence = new Integer[count];
-//		initSequence(sequence); // Формирование исходной последовательности
-//		System.out.println("Неубывающая последовательность и её перестановки:");
-//		do {
-//			System.out.println(Arrays.deepToString(sequence));
-//		} while (Narayana.nextPermutation(sequence, NarayanaTest::less));
-//		// x < y — критерий сравнения для неубывающей последовательности
-//		System.out.println("Невозрастающая последовательность и её перестановки:");
-//		do {
-//			System.out.println(Arrays.deepToString(sequence));
-//		} while (Narayana.nextPermutation(sequence, NarayanaTest::greater));
-//		// x > y — критерий сравнения для невозрастающей последовательности
-//	}
-//	// Возвращает true, если value_0 меньше value_1, иначе — false
-//	static final <T extends Comparable> boolean less(final T value_0, final T value_1) {
-//		return value_0.compareTo(value_1) < 0;
-//	}
-//
-//	// Возвращает true, если value_0 больше value_1, иначе — false
-//	static final <T extends Comparable> boolean greater(final T value_0, final T value_1) {
-//		return value_0.compareTo(value_1) > 0;
-//	}
-//
-//	// Инициализация последовательности
-//	static final void initSequence(Integer[] sequence) {
-//		// Заполнение последовательности значениями 1, 2, 3…
-//		for (int value = sequence.length; value > 0; --value)
-//			sequence[value - 1] = value;
-//	}
-//}
