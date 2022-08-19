@@ -1,4 +1,4 @@
-//Написать тело метода, который вычислит и вернет факториал числа, который передается в качестве параметра.
+//Write the body of a method that will calculate and return the factorial of the number that is passed as a parameter.
 
 package lesson_6_2;
 
