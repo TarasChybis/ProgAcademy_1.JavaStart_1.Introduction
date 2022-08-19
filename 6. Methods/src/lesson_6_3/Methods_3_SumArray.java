@@ -1,4 +1,4 @@
-//Ќаписать метод, который вычислит и вернет сумму элементов массива целых чисел, которые передаютс€ в качестве параметров.
+//Write a method that will calculate and return the sum of the elements of an array of integers that are passed as parameters.
 
 package lesson_6_3;
 
