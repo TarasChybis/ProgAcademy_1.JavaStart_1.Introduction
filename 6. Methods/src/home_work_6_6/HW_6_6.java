@@ -1,13 +1,11 @@
-//Существуют такие последовательности чисел
-//0,2,4,6,8,10,12     Арифметическая прогрессия
-//1,4,7,10,13
-//1,2,4,8,16,32       Геометрическая прогрессия
-//1,3,9,27
-//1,4,9,16,25         Степенной ряд
+//There are such sequences of numbers
+//0,2,4,6,8,10,12     	Arithmetic progression
+//1,4,7,10,13			Arithmetic progression
+//1,2,4,8,16,32       	Geometric progression
+//1,3,9,27				Geometric progression
+//1,4,9,16,25      		Power series (РЎС‚РµРїРµРЅРЅРѕР№ СЂСЏРґ)
 //1,8,27,64,125
-//Реализуйте программу которая выведет следующий член этой 
-//последовательности (либо подобной им). Например пользователь вводит 
-//строку 0,2,4,6,8,10,12 ответом программы должно быть число 14. (6 часов)
+//Implement a program that will print the next term of this sequence (or similar). For example, the user enters the string 0,2,4,6,8,10,12 the program should answer the number 14. (6 hours)
 
 package home_work_6_6;
 
@@ -35,7 +33,7 @@ public class HW_6_6 {
 		nextElement(array7);
 	}
 
-//Метод выводит на экран следующий элемент или что не нашел зависимость
+	//The method displays the next element or that it did not find a dependency.
 	public static void nextElement(int[] array) {
 		double[] koef = new double[array.length - 1];
 		boolean b = true;
@@ -53,9 +51,9 @@ public class HW_6_6 {
 		}
 	}
 
-	// Метод проверяет последовательноть по формуле Х в кубе.
-	// если зависимость найдена - возвращает следующий элемент,
-	// если зависимость не найдена - возвращает -1.
+	// The method checks the sequence according to the formula X in the cube.
+	// If the dependency is found, returns the next element.
+	// If the dependency is not found - returns -1.
 	public static int nextElementExp3(int[] array, double[] koef, boolean b) {
 		for (int i = 0; i < array.length - 1; i++) {
 			koef[i] = (Math.pow(array[i + 1], 1.0 / 3) - Math.pow(array[i], 1.0 / 3));
@@ -73,9 +71,9 @@ public class HW_6_6 {
 		return -1;
 	}
 
-	// Метод проверяет последовательноть по формуле Х в квадрате.
-	// если зависимость найдена - возвращает следующий элемент,
-	// если зависимость не найдена - возвращает -1.
+	// The method checks the sequence according to the formula X squared.
+	// If the dependency is found, returns the next element.
+	// If the dependency is not found - returns -1.
 	public static int nextElementExp2(int[] array, double[] koef, boolean b) {
 
 		for (int i = 0; i < array.length - 1; i++) {
@@ -94,9 +92,9 @@ public class HW_6_6 {
 		return -1;
 	}
 
-	// Метод проверяет последовательноть по формуле Хi * X(i-1).
-	// если зависимость найдена - возвращает следующий элемент,
-	// если зависимость не найдена - возвращает -1.
+	// The method checks the sequence according to the formula РҐi * X(i-1).
+	// If the dependency is found, returns the next element.
+	// If the dependency is not found - returns -1.
 	public static int nextElementMultiple(int[] array, double[] koef, boolean b) {
 
 		for (int i = 0; i < array.length - 1; i++) {
@@ -115,9 +113,9 @@ public class HW_6_6 {
 		return -1;
 	}
 
-	// Метод проверяет последовательноть по формуле Хi + X(i-1).
-	// если зависимость найдена - возвращает следующий элемент,
-	// если зависимость не найдена - возвращает -1.
+	// The method checks the sequence according to the formula РҐi + X(i-1).
+	// If the dependency is found, returns the next element.
+	// If the dependency is not found - returns -1.
 	public static int nextElementArifmetic(int[] array, double[] koef, boolean b) {
 
 		for (int i = 0; i < array.length - 1; i++) {
@@ -138,7 +136,7 @@ public class HW_6_6 {
 }
 
 //		Scanner sc = new Scanner(System.in);
-//		System.out.println("Введите числовую последовательность через запятую");
+//		System.out.println("Enter a numeric sequence of integers");
 //		String str = sc.nextLine();
 //		print(arr(str));
 //	}
