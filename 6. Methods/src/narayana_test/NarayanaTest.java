@@ -1,5 +1,4 @@
-//There is an array {1,2,3,4,5} - the size of the array can be
-//arbitrary. Write a program that will display all possible combinations of these numbers. Attention repetitions should not be. (2 hours)
+//There is an array {1,2,3,4,5} - the size of the array can be arbitrary. Write a program that will display all possible combinations of these numbers. Attention repetitions should not be. (2 hours)
 
 package narayana_test;
 
