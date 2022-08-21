@@ -1,4 +1,4 @@
-//Напишите метод который реализует линейный поиск элемента в массиве целых чисел. Если такой элемент в массиве есть то верните его индекс, если нет то метод должен возвращать число - «-1»
+//Write a method that implements a linear search for an element in an array of integers. If there is such an element in the array, then return its index, if not, then the method should return a number - "-1".
 
 package home_work_6_4;
 
