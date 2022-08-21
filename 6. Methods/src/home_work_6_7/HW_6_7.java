@@ -1,6 +1,5 @@
-//Число-палиндром с  обеих  сторон  (справа  налево  и  слева  направо) читается  одинаково.
-//Самое  большое  число-палиндром,  полученное умножением двух двузначных чисел 9009 = 91 x 99.
-//Найдите  самый  большой  палиндром,  полученный  умножением  двух трехзначных чисел. (4 часа)
+//A palindrome number reads the same on both sides (right to left and left to right). The largest palindrome number obtained by multiplying two two-digit numbers is 9009 = 91 Г— 99.
+//Find the largest palindrome obtained by multiplying two three-digit numbers. (4 hours)
 
 package home_work_6_7;
 
@@ -25,8 +24,7 @@ public class HW_6_7 {
 				}
 			}
 		}
-		System.out.println("Cамый большой палиндром, полученный умножением двух\r\n" + "трехзначных чисел: " + x + " = "
-				+ x2 + " * " + x1);
+		System.out.println("The largest palindrome number obtained by multiplying two three-digit numbers: " + x + " = " + x1 + " * " + x2);
 	}
 
 	public static boolean test(int n) {
@@ -64,8 +62,7 @@ public class HW_6_7 {
 //				}
 //			}
 //		}
-//		System.out.println("Cамый большой палиндром, полученный умножением двух трехзначных чисел: " + x + " = "
-//				+ x2 + " * " + x1);
+//		System.out.println("The largest palindrome number obtained by multiplying two three-digit numbers: " + x + " = " + x1 + " * " + x2);
 //	}
 //}
 //	public static String polindrom(int[] arr1) {
