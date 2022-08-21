@@ -1,6 +1,4 @@
-//–еализуйте метод рисующий на экране пр€моугольник из звездочек Ђ*ї 
-//Ч его параметрами будут целые числа которые описывают длину и 
-//ширину такого пр€моугольника.
+//Implement a method that draws a rectangle of asterisks "*" on the screen - its parameters will be integers that describe the length and width of such a rectangle.
 
 package home_work_6_3;
 
