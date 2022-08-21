@@ -21,32 +21,32 @@ There is an array {1,2,3,4,5} - the size of the array can be arbitrary. Write a 
 </p>
 
 <p>
-<b> HW_6_1 </b><br>
+<b> home_work_6_1 </b><br>
 Write a method that will return the maximum number from an array of integers.
 </p>
 
 <p>
-<b> HW_6_2 </b><br>
+<b> home_work_6_2 </b><br>
 Implement a method whose parameters are an integer, a real number, and a string. It returns the concatenation of a string with the sum of a real and an integer.
 </p>
 
 <p>
-<b> HW_6_3 </b><br>
+<b> home_work_6_3 </b><br>
 Implement a method that draws a rectangle of asterisks "*" on the screen - its parameters will be integers that describe the length and width of such a rectangle.
 </p>
 
 <p>
-<b> HW_6_4 </b><br>
+<b> home_work_6_4 </b><br>
 Write a method that implements a linear search for an element in an array of integers. If there is such an element in the array, then return its index, if not, then the method should return a number - "-1".
 </p>
 
 <p>
-<b> HW_6_5 </b><br>
+<b> home_work_6_5 </b><br>
 Write a method that will return the number of words in a line of text.
 </p>
 
 <p>
-<b> HW_6_6 </b><br>
+<b> home_work_6_6 </b><br>
 There are such sequences of numbers
 0,2,4,6,8,10,12     	Arithmetic progression
 1,4,7,10,13				Arithmetic progression
@@ -58,7 +58,7 @@ Implement a program that will print the next term of this sequence (or similar).
 </p>
 
 <p>
-<b> HW_6_7 </b><br>
+<b> home_work_6_7 </b><br>
 A palindrome number reads the same on both sides (right to left and left to right). The largest palindrome number obtained by multiplying two two-digit numbers is 9009 = 91 * 99.
 Find the largest palindrome obtained by multiplying two three-digit numbers. (4 hours)
 </p>
