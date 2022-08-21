@@ -1,4 +1,4 @@
-//Напишите метод который вернет количество слов в строке текста.
+//Write a method that will return the number of words in a line of text.
 
 package home_work_6_5;
 
@@ -14,8 +14,7 @@ public class HW_6_5 {
 			System.out.println("Amount words: " + 0);
 		} else {
 			System.out.println("Amount words: " + amountWords(text));
-		}
-		
+		}	
 	}
 
 	public static int amountWords(String text) {
@@ -34,7 +33,6 @@ public class HW_6_5 {
 //		} else {
 //			System.out.println("Amount words: " + amountWords(text));
 //		}
-//		
 //	}
 //
 //	public static int amountWords(String text) {
