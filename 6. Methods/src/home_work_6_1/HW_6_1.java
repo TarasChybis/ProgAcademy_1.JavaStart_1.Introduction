@@ -1,4 +1,4 @@
-//Напишите метод который вернет максимальное число из массива целых чисел.
+//Write a method that will return the maximum number from an array of integers.
 
 package home_work_6_1;
 
