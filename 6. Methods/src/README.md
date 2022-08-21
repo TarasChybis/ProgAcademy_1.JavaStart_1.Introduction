@@ -1,26 +1,6 @@
 <h1> 6. Methods </h1>
 		
 <p>
-<b> lesson_6_1 </b><br>
-Write the body of a method that will calculate and return the sum of squares that are passed as actual parameters.
-</p>
-
-<p>
-<b> lesson_6_2 </b><br>
-Write the body of a method that will calculate and return the factorial of the number that is passed as a parameter.
-</p>
-
-<p>
-<b> lesson_6_3 </b><br>
-Write a method that will calculate and return the sum of the elements of an array of integers that are passed as parameters.
-</p>
-
-<p>
-<b> NarayanaTest </b><br>
-There is an array {1,2,3,4,5} - the size of the array can be arbitrary. Write a program that will display all possible combinations of these numbers. Attention repetitions should not be. (2 hours)
-</p>
-
-<p>
 <b> home_work_6_1 </b><br>
 Write a method that will return the maximum number from an array of integers.
 </p>
@@ -61,4 +41,24 @@ Implement a program that will print the next term of this sequence (or similar).
 <b> home_work_6_7 </b><br>
 A palindrome number reads the same on both sides (right to left and left to right). The largest palindrome number obtained by multiplying two two-digit numbers is 9009 = 91 * 99.
 Find the largest palindrome obtained by multiplying two three-digit numbers. (4 hours)
+</p>
+
+<p>
+<b> lesson_6_1 </b><br>
+Write the body of a method that will calculate and return the sum of squares that are passed as actual parameters.
+</p>
+
+<p>
+<b> lesson_6_2 </b><br>
+Write the body of a method that will calculate and return the factorial of the number that is passed as a parameter.
+</p>
+
+<p>
+<b> lesson_6_3 </b><br>
+Write a method that will calculate and return the sum of the elements of an array of integers that are passed as parameters.
+</p>
+
+<p>
+<b> narayana_test </b><br>
+There is an array {1,2,3,4,5} - the size of the array can be arbitrary. Write a program that will display all possible combinations of these numbers. Attention repetitions should not be. (2 hours)
 </p>
