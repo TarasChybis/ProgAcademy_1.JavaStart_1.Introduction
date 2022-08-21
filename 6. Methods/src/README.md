@@ -52,7 +52,7 @@ There are such sequences of numbers
 1,4,7,10,13				Arithmetic progression
 1,2,4,8,16,32       	Geometric progression
 1,3,9,27				Geometric progression
-1,4,9,16,25      		Power series (Степенной ряд)
+1,4,9,16,25      		Power series (РЎС‚РµРїРµРЅРЅРѕР№ СЂСЏРґ)
 1,8,27,64,125
 Implement a program that will print the next term of this sequence (or similar). For example, the user enters the string 0,2,4,6,8,10,12 the program should answer the number 14. (6 hours)
 </p>
