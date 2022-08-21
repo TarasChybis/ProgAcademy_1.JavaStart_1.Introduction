@@ -1,4 +1,4 @@
-#6. Methods
+# 6. Methods
 		
 **lesson_6_1**
 
