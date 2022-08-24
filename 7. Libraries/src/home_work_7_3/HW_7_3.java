@@ -1,5 +1,5 @@
-//¬вести  с  консоли  число  в  бинарном  формате. ѕеревести  его  в 
-//дес€тичный  и вывести на экран (У10Ф -> 2).
+//Enter a binary number from the console. 
+//Convert it to decimal format and display (вАЬ10вАЭ -> 2).
 
 package home_work_7_3;
 
@@ -16,7 +16,5 @@ public class HW_7_3 {
 		int binNum = Integer.parseInt(bin, 2);
 
 		System.out.println(binNum);
-
 	}
-
 }
