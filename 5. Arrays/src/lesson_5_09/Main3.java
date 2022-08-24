@@ -1,3 +1,5 @@
+//Count odd numbers in an array.
+
 package lesson_5_09;
 
 import java.util.Arrays;
