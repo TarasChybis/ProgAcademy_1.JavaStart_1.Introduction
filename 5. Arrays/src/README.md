@@ -28,12 +28,44 @@ Enter a line of text from the keyboard - implement a program to be able to count
 <b> home_work_5_5 </b><br>
 "Reverse array". That is, write a program that will rotate the underlying array 90, 180, 270 degrees clockwise. (You cannot use an additional array when executing a job.) The example shows the rotation of the array by 90 degrees - (3 hours).<br>
 
-Before___[1, 2, 3, 4, 5, 6]___Now___[1, 1, 1, 1, 1, 1]<br>
-_________[1, 2, 3, 4, 5, 6]_________[2, 2, 2, 2, 2, 2]<br>
-_________[1, 2, 3, 4, 5, 6]_________[3, 3, 3, 3, 3, 3]<br>
-_________[1, 2, 3, 4, 5, 6]_________[4, 4, 4, 4, 4, 4]<br>
-_________[1, 2, 3, 4, 5, 6]_________[5, 5, 5, 5, 5, 5]<br>
-_________[1, 2, 3, 4, 5, 6]_________[6, 6, 6, 6, 6, 6]<br>
+<table>
+	<tr> 
+		<td> Before </td> 
+		<td> [1, 2, 3, 4, 5, 6] </td>
+		<td> Now </td>
+		<td> [1, 1, 1, 1, 1, 1] </td>
+	</tr> 	
+	<tr> 
+		<td> </td>
+		<td> [1, 2, 3, 4, 5, 6] </td>
+		<td> </td>
+		<td> [2, 2, 2, 2, 2, 2] </td>
+	</tr>
+	<tr> 
+		<td> </td>
+		<td> [1, 2, 3, 4, 5, 6] </td>
+		<td> </td>
+		<td> [3, 3, 3, 3, 3, 3] </td>
+	</tr>
+	<tr> 
+		<td> </td>
+		<td> [1, 2, 3, 4, 5, 6] </td>
+		<td> </td>
+		<td> [4, 4, 4, 4, 4, 4] </td>
+	</tr>
+	<tr> 
+		<td> </td>
+		<td> [1, 2, 3, 4, 5, 6] </td>
+		<td> </td>
+		<td> [5, 5, 5, 5, 5, 5] </td>
+	</tr>
+	<tr> 
+		<td> </td>
+		<td> [1, 2, 3, 4, 5, 6] </td>
+		<td> </td>
+		<td> [6, 6, 6, 6, 6, 6] </td>
+	</tr>
+</table>
 </p>
 
 <p>
