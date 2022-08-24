@@ -1,4 +1,4 @@
-//for each loop in arrays
+//The loop 'for each' in arrays.
 
 package lesson_5_05;
 
