@@ -1,16 +1,15 @@
-//Расстояние Хэмминга между двумя целыми  числами - это число  
-//позиций, в которых биты различаются .
-//Для примера:
-//    117 = 0 1 1 1 0 1 0 1
-//     17 = 0 0 0 1 0 0 0 1
-//-----------------------------------
-//H = 0+1+1+0+0+1+0+0 = 3 - расстояние Хэмминга между (117,17)
-//Даны два положительных целых числа (N, M) в десятичном виде. Вам 
-//необходимо подсчитать расстояние Хэмминга между этими двумя 
-//числами.
+//The Hamming distance between two integers is the number of positions where the bits differ.
+//For example:
+//	117	= 0 1 1 1 0 1 0 1
+//	17	= 0 0 0 1 0 0 0 1
+//------------------------------------
+//	H	= 0+1+1+0+0+1+0+0 = 3 - Hamming distance between 117 and 17.
+//You are given two positive integers (N, M) in decimal form. You need to calculate the Hamming distance between these two numbers.
 
 package home_work_7_6;
+
 import java.util.Scanner;
+
 public class HW_7_6 {
 
 	public static void main(String[] args) {
@@ -25,7 +24,6 @@ public class HW_7_6 {
 		System.out.println("Binary Format M - " + convertM);
 
 		hemingNumber(n, m);
-
 	}
 
 	public static void hemingNumber(int n, int m) {
