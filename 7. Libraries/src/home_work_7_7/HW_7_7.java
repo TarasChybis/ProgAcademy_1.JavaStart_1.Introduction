@@ -1,7 +1,5 @@
-//Вовочка сидя на уроке писал подряд одинаковые числа. Когда Марья 
-//Ивановна забрала у него тетрадь там было несколько рядов чисел. 
-//Напишите программу которая определит минимальное число которое 
-//писал Вовочка например:
+//Vovochka, sitting in the lesson, wrote the same numbers in a row. When Marya Ivanovna took the notebook from him there were several rows of numbers.
+//Write a program that will determine the minimum number that Vovochka wrote, for example:
 //11111111=>1
 //12121212=>12
 //121121121=>121
