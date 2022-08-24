@@ -1,3 +1,7 @@
+//Given 12 salaries.
+//1) Calculate and display the amount of salary for the year.
+//2) Determine the average monthly salary.
+
 package lesson_5_08;
 
 import java.util.Arrays;
