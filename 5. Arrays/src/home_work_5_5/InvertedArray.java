@@ -1,4 +1,4 @@
-//"Reverse array". Those. write a program that will rotate the underlying array 90, 180, 270 degrees clockwise. (You cannot use an additional array when executing a job.) The example shows the rotation of the array by 90 degrees - (3 hours).
+//"Reverse array". That is, write a program that will rotate the underlying array 90, 180, 270 degrees clockwise. (You cannot use an additional array when executing a job.) The example shows the rotation of the array by 90 degrees - (3 hours).
 //
 //Before      [1, 2, 3, 4, 5, 6]                  Now       [1, 1, 1, 1, 1, 1]
 //            [1, 2, 3, 4, 5, 6]                            [2, 2, 2, 2, 2, 2]
