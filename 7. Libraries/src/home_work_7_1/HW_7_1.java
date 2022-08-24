@@ -1,4 +1,4 @@
-//Написать  программу  которая  вернет  количество  миллисекунд прошедших  от  такого  же  числа,  но  в  прошлом  месяце  до  сегодняшней даты. Например если сегодня 3 августа, то узнать сколько миллисекунд прошло с 3 июля.
+//Write a program to return the number of milliseconds passed from the same date, but last month to today's date. For example, if today is August 3rd, then find out how many milliseconds have passed since July 3rd.
 
 package home_work_7_1;
 
