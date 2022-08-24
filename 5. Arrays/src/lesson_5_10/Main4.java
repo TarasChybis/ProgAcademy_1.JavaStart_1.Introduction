@@ -1,3 +1,5 @@
+//Write a program that allow to fill an array with data entered from the keyboard.
+
 package lesson_5_10;
 
 import java.util.Arrays;
