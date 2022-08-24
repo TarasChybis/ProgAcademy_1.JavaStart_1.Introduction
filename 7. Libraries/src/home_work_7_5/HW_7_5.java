@@ -1,4 +1,4 @@
-//¬вести с консоли дату. —равнить ее с текущей датой в системе. ¬ывести отличающиес€ части (год, мес€ц) на экран.
+//Enter the date from the console. Compare it with the current date in the system. Display the differing parts (year, month) on the screen.
 
 package home_work_7_5;
 
