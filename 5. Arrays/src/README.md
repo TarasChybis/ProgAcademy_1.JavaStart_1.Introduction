@@ -2,7 +2,7 @@
 		
 <p>
 <b> home_work_5_1 </b><br>
-An array {0,5,2,4,7,1,3,19} is given. 
+An array {0,5,2,4,7,1,3,19} is given.<br> 
 Write a program to count the odd digits in it.
 </p>
 
@@ -13,9 +13,9 @@ Write code to be able to create an array of integers (the size is entered from t
 
 <p>
 <b> home_work_5_3 </b><br>
-Create an array of random numbers (size 15 elements). Create a 2nd array twice as large, the first 15 elements should be equal to the elements of the first array, and fill the remaining elements with twice the value of the initial.
-For example:
-Before → {1,4,7,2}
+Create an array of random numbers (size 15 elements). Create a 2nd array twice as large, the first 15 elements should be equal to the elements of the first array, and fill the remaining elements with twice the value of the initial.<br>
+For example:<br>
+Before → {1,4,7,2}<br>
 Now    → {1,4,7,2,2,8,14,4}
 </p>
 
@@ -26,14 +26,14 @@ Enter a line of text from the keyboard - implement a program to be able to count
 
 <p>
 <b> home_work_5_5 </b><br>
-"Reverse array". That is, write a program that will rotate the underlying array 90, 180, 270 degrees clockwise. (You cannot use an additional array when executing a job.) The example shows the rotation of the array by 90 degrees - (3 hours).
+"Reverse array". That is, write a program that will rotate the underlying array 90, 180, 270 degrees clockwise. (You cannot use an additional array when executing a job.) The example shows the rotation of the array by 90 degrees - (3 hours).<br>
 
-Before      [1, 2, 3, 4, 5, 6]                  Now       [1, 1, 1, 1, 1, 1]
-            [1, 2, 3, 4, 5, 6]                            [2, 2, 2, 2, 2, 2]
-            [1, 2, 3, 4, 5, 6]                            [3, 3, 3, 3, 3, 3]
-            [1, 2, 3, 4, 5, 6]                            [4, 4, 4, 4, 4, 4]
-            [1, 2, 3, 4, 5, 6]                            [5, 5, 5, 5, 5, 5]
-            [1, 2, 3, 4, 5, 6]                            [6, 6, 6, 6, 6, 6]
+Before      [1, 2, 3, 4, 5, 6]                  Now       [1, 1, 1, 1, 1, 1]<br>
+            [1, 2, 3, 4, 5, 6]                            [2, 2, 2, 2, 2, 2]<br>
+            [1, 2, 3, 4, 5, 6]                            [3, 3, 3, 3, 3, 3]<br>
+            [1, 2, 3, 4, 5, 6]                            [4, 4, 4, 4, 4, 4]<br>
+            [1, 2, 3, 4, 5, 6]                            [5, 5, 5, 5, 5, 5]<br>
+            [1, 2, 3, 4, 5, 6]                            [6, 6, 6, 6, 6, 6]<br>
 </p>
 
 <p>
@@ -43,16 +43,16 @@ Write the code to flip the array (7, 2, 9, 4) -> (4, 9, 2, 7). The array can be 
 
 <p>
 <b> home_work_5_7 </b><br>
-Enter from the keyboard a number (up to a billion), which indicates the number of dollars and cents of the user. Write this number in words.
-For example:
-How much money do you have?
-123,34
+Enter from the keyboard a number (up to a billion), which indicates the number of dollars and cents of the user. Write this number in words.<br>
+For example:<br>
+How much money do you have?<br>
+123,34<br>
 You have: one hundred twenty three dollars thirty four cents.
 </p>
 
 <p>
 <b> lesson_5_01 </b><br>
-Create an array of 12 random salaries.
+Create an array of 12 random salaries.<br>
 Calculate the value of the average salary.
 </p>
 
@@ -88,8 +88,8 @@ Syntax_2 (Lecture notes).
 
 <p>
 <b> lesson_5_08 </b><br>
-Given 12 salaries.
-1) Calculate and display the amount of salary for the year.
+Given 12 salaries.<br>
+1) Calculate and display the amount of salary for the year.<br>
 2) Determine the average monthly salary.
 </p>
 
