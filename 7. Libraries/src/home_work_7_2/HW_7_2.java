@@ -1,4 +1,4 @@
-//Написать свой вариант метода  Arrays.toString() для int[].
+//Write your own version of the Arrays.toString() method for int[].
 
 package home_work_7_2;
 
@@ -19,7 +19,6 @@ public class HW_7_2 {
 	    
 		int[] arr2 = new int[] {1, 7, 17, 51, 6, 4};
 		System.out.println(myArrayString(arr2));
-		
 	}
 	
 	public static String myArrayString(int[] array) {
@@ -29,5 +28,4 @@ public class HW_7_2 {
 		}
 		return number;
 	}
-
 }
