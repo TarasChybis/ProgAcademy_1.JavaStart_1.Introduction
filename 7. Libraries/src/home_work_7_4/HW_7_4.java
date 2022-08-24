@@ -1,5 +1,4 @@
-//Выведите на экран 10 строк со значением числа Пи. Причем в первой 
-//строке должно быть 2 знака после запятой, во второй 3, в третьей 4 и т.д.
+//Display 10 lines with the value of pi. Moreover, the first line should have 2 decimal places, the second 3, the third 4, etc.
 
 package home_work_7_4;
 
@@ -15,7 +14,5 @@ public class HW_7_4 {
 			String text = form.toString();
 			System.out.println(text);
 		}
-
 	}
-
 }
