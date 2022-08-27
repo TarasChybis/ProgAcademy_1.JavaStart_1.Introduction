@@ -1,4 +1,4 @@
-//Создайте консольный «текстовый редактор» с возможностью сохранения набранного текста в файл.
+//Create a console "text editor" with the ability saving the typed text to a file.
 
 package home_work_8_1;
 
@@ -11,7 +11,7 @@ public class HW_8_1_1 {
 
 	public static void main(String[] args) {
 		File file1 = new File("file1.txt");
-		System.out.println("Введите текст:");
+		System.out.println("Enter text:");
 		Scanner sc = new Scanner(System.in);
 		String text = sc.nextLine();
 		try (PrintWriter operate = new PrintWriter(file1)) {
@@ -20,6 +20,6 @@ public class HW_8_1_1 {
 			e.printStackTrace();
 		}
 
-		System.out.println("Спасибо, Ваш текст был сохранён!");
+		System.out.println("Thank you, your text has been saved!");
 	}		
 }
