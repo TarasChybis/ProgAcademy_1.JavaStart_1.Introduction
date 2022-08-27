@@ -9,12 +9,9 @@ public class FormatterA {
 		System.out.println(text);
 		
 		System.out.println(doubleToString(Math.PI, 2));
-
 	}
 
 	public static String doubleToString(double number, int n) {
 		return String.format("%." + n + "f", number);
-	}
-	
+	}	
 }
-
