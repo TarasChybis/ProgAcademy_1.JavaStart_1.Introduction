@@ -1,5 +1,4 @@
-//Напишите метод для считывания двухмерного массива из файла (размер массива заранее неизвестен, 
-//определите его сами на основе данных в файле).
+//Write a method to read a two-dimensional array from a file (the size of the array is not known in advance, determine it yourself based on the data in the file).
 
 package home_work_8_4;
 
