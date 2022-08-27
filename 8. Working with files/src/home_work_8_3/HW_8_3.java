@@ -1,4 +1,4 @@
-//Реализуйте метод который выведет на экран список всех каталогов которые «лежат»  в каталоге который будет параметром этого метода.
+//Implement a method that will display a list of all directories that "lie" in the directory that will be the parameter of this method.
 
 package home_work_8_3;
 
@@ -11,7 +11,6 @@ public class HW_8_3 {
 //		folder.mkdirs();
 //
 //		area(folder);
-//
 //	}
 //
 //	public static void area(File folder) {
@@ -37,6 +36,4 @@ public class HW_8_3 {
 			System.out.println(files[i] +  " - Folder" );
 		}
 	}
-}
-
-	
+}	
