@@ -1,4 +1,4 @@
-//Создайте консольный «текстовый редактор» с возможностью сохранения набранного текста в файл.
+//Create a console "text editor" with the ability saving the typed text to a file.
 
 package home_work_8_1;
 
