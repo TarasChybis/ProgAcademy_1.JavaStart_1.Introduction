@@ -1,5 +1,5 @@
-//Текущая Дата:
-//package chybis;
+//The current date:
+//package lesson_7_2;
 //import java.util.Date;
 //public class DateA {
 //	public static void main(String[] args) {
@@ -8,8 +8,8 @@
 //	}
 //}
 
-//Дата, которую мы хотим задать:
-//package chybis;
+//The date we want to set:
+//package lesson_7_2;
 //import java.util.Date;
 //public class DateA {
 //	public static void main(String[] args) {
@@ -19,9 +19,8 @@
 //	}
 //}
 
-//Форматированный вывод строки, даты и времени:
-//только ТЕКСТ: ВСЕ в двойных ковычках, а текст в одинарных ковычках.
-//package chybis;
+//The text (the characters that contain only letters): ALL in double quotes, and text in single quotes.
+//package lesson_7_2;
 //import java.util.Date;
 //import java.text.SimpleDateFormat;
 //public class DateA {
@@ -33,9 +32,8 @@
 //	}
 //}
 
-//Форматированный вывод строки, даты и времени:
-//ТЕКСТ и символы: ВСЕ в двойных ковычках, а текст в одинарных ковычках.
-//package chybis;
+//Text + symbols: ALL in double quotes, and text in single quotes.
+//package lesson_7_2;
 //import java.util.Date;
 //import java.text.SimpleDateFormat;
 //public class DateA {
@@ -47,9 +45,8 @@
 //	}
 //}
 
-//Форматированный вывод строки, даты и времени:
-//ТЕКСТ и СПЕЦИФИКАТОР ФОРМАТА: ВСЕ в двойных ковычках, а текст в одинарных ковычках.
-//package chybis;
+//Text + FORMAT SPECIFIERS: ALL in double quotes, but text in single quotes.
+//package lesson_7_2;
 //import java.util.Date;
 //import java.text.SimpleDateFormat;
 //public class DateA {
@@ -61,9 +58,8 @@
 //	}
 //}
 
-//Форматированный вывод строки, даты и времени:
-//СПЕЦИФИКАТОР ФОРМАТА: ВСЕ в двойных ковычках.
-//package chybis;
+//FORMAT SPECIFIERS: ALL in double quotes.
+//package lesson_7_2;
 //import java.util.Date;
 //import java.text.SimpleDateFormat;
 //public class DateA {
@@ -78,7 +74,7 @@
 //	}
 //}
 
-//Преобразование Строки в Дату:
+//Convert String to Date:
 package lesson_7_2;
 import java.util.Date;
 import java.text.ParseException;
@@ -88,7 +84,7 @@ public class DateA {
 		Date date = new Date();
 		SimpleDateFormat sdf2 = new SimpleDateFormat("dd:MM:yy");
 		String day = "11:10:1981";
-		// ОБРАБОТЧИК ИСКЛЮЧЕНИЯ try/catch
+		// EXCEPTION HANDLER try/catch
 		try {
 			date = sdf2.parse(day);
 		} catch (ParseException e) {
