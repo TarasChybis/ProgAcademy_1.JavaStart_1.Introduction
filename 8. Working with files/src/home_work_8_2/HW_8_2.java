@@ -1,4 +1,4 @@
-//Напишите метод для сохранения в текстовый файл двухмерного массива целых чисел.
+//Write a method to save to a text file to a two-dimensional array of integers.
 
 package home_work_8_2;
 
