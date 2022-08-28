@@ -1,7 +1,4 @@
-//Считайте из текстового файла текст на английском языке и 
-//выведите статистику по частоте использования букв в тексте 
-//(т. е. буква — количество использований), причем первыми 
-//должны выводиться буквы используемы чаще всего.
+//Read text in English from a text file and display statistics on the frequency of use of letters in the text (that is, the number of uses of the letters), and the first the letters used most often should be displayed.
 
 package home_work_8_5;
 
@@ -17,8 +14,7 @@ public class HW_8_5 {
 		equelsWords(foundNumberOfWords(file));
 	}
 
-	public static char[] alphabet = { 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p',
-			'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z' };
+	public static char[] alphabet = { 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z' };
 
 	public static char[] foundNumberOfWords(File file) {
 		String line = "";
