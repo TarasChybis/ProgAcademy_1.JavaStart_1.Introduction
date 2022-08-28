@@ -1,62 +1,74 @@
-<h1> 7. Libraries </h1>
+<h1> 8. Working with files </h1>
 		
 <p>
-<b> home_work_7_1 </b><br>
-Write a program to return the number of milliseconds passed from the same date, but last month to today's date. For example, if today is August 3rd, then find out how many milliseconds have passed since July 3rd.
+<b> home_work_8_1 </b><br>
+Create a console "text editor" with the ability saving the typed text to a file.
 </p>
 
 <p>
-<b> home_work_7_2 </b><br>
-Write your own version of the Arrays.toString() method for int[].
+<b> home_work_8_2 </b><br>
+Write a method to save to a text file to a two-dimensional array of integers.
 </p>
 
 <p>
-<b> home_work_7_3 </b><br>
-Enter a binary number from the console. <br>
-Convert it to decimal format and display (“10” -> 2).
+<b> home_work_8_3 </b><br>
+Implement a method that will display a list of all directories that "lie" in the directory that will be the parameter of this method.
 </p>
 
 <p>
-<b> home_work_7_4 </b><br>
-Display 10 lines with the value of pi. Moreover, the first line should have 2 decimal places, the second 3, the third 4, etc.
+<b> home_work_8_4 </b><br>
+Write a method to read a two-dimensional array from a file (the size of the array is not known in advance, determine it yourself based on the data in the file).
 </p>
 
 <p>
-<b> home_work_7_5 </b><br>
-Enter the date from the console. Compare it with the current date in the system. Display the differing parts (year, month) on the screen.
+<b> home_work_8_5 </b><br>
+Read text in English from a text file and display statistics on the frequency of use of letters in the text (that is, the number of uses of the letters), and the first the letters used most often should be displayed.
 </p>
 
 <p>
-<b> home_work_7_6 </b><br>
-The Hamming distance between two integers is the number of positions where the bits differ.<br>
-For example:<br>
-	117	= 0 1 1 1 0 1 0 1<br>
-	17	= 0 0 0 1 0 0 0 1<br>
-------------------------------------<br>
-	H	= 0+1+1+0+0+1+0+0 = 3 - Hamming distance between 117 and 17.<br>
-You are given two positive integers (N, M) in decimal form. You need to calculate the Hamming distance between these two numbers.
+<b> home_work_8_6 </b><br>
+Write a method to create in an ASCII file - art, that is, figure size 40x40 symbols filled with symbols forming a pattern.
 </p>
 
 <p>
-<b> home_work_7_7 </b><br>
-Vovochka, sitting in the lesson, wrote the same numbers in a row. When Marya Ivanovna took the notebook from him there were several rows of numbers.<br>
-Write a program that will determine the minimum number that Vovochka wrote, for example:<br>
-11111111=>1<br>
-12121212=>12<br>
-121121121=>121<br>
+<b> lesson_8_1 </b><br>
+Create and delete files and folders.<br>
+Find out the size of files.<br>
+- Address of the working directory of our application.<br>
+- Create the object of the file system FILE.<br>
+- Relative addressing relative to any other address.<br>
+- Deleting files and folders.<br>
+- Find out a list of folders and files.<br>
+- Find out the list of folders + size of each folder.
 </p>
 
 <p>
-<b> lesson_7_1 </b><br>
-Some methods of the Calendar class (Lecture summary).
+<b> lesson_8_2 </b><br>
+Write data to file.
 </p>
 
 <p>
-<b> lesson_7_2 </b><br>
-Format specifiers. Strings. Exception handler try/catch (Lecture summary).
+<b> lesson_8_3 </b><br>
+Save data of one-dimensional array to a file.
 </p>
 
 <p>
-<b> lesson_7_3 </b><br>
-Rounding numbers through the Formatter class (Lecture summary).
+<b> lesson_8_4 </b><br>
+Read record from file.
+</p>
+
+<p>
+<b> lesson_8_5 </b><br>
+Display the largest number of numbers in a file.
+</p>
+
+<p>
+<b> lesson_8_6 </b><br>
+Lecture notes:<br>
+- The address of our application's working directory.<br>
+- Deleting files and folders.<br>
+- Write data to file.<br>
+- Save one-dimensional array data to a file.<br>
+- Read record from file.<br>
+- Save one-dimensional array data to a file.
 </p>
