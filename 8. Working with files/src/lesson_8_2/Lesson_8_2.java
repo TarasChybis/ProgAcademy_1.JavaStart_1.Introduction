@@ -1,4 +1,4 @@
-//Записать данные в файл
+//Write data to file
 
 package lesson_8_2;
 
@@ -19,7 +19,5 @@ public class Lesson_8_2 {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-
 	}
-
 }
