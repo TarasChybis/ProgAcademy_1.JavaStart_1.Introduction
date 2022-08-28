@@ -1,4 +1,4 @@
-//Сохронить данные одномерного массива в файл
+//Save data of one-dimensional array to a file
 
 package lesson_8_3;
 
