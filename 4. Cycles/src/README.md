@@ -97,9 +97,9 @@ For example w=5<br>
 The user enters an integer from the keyboard int h = 4;<br>
 Need to draw a shape of the form<br>
 <br>
-&nbsp&nbsp&nbsp* 1 i<br>
-&nbsp&nbsp** 2<br>
-&nbsp*** 3<br>
+&nbsp;&nbsp;&nbsp* 1 i<br>
+&nbsp;&nbsp;** 2<br>
+&nbsp;*** 3<br>
 **** 4<br>
 1234<br>
 <br>
