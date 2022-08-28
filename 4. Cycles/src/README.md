@@ -2,12 +2,12 @@
 		
 <p>
 <b> home_work_4_1 </b><br>
-With the help of cycles draw “wallpaper”. Moreover, the number of bands must be entered from the keyboard. In the example there are 7 bands.
+With the help of cycles draw ï¿½wallpaperï¿½. Moreover, the number of bands must be entered from the keyboard. In the example there are 7 bands.
 </p>
 
 <p>
 <b> home_work_4_2 </b><br>
-Calculate by loop the factorial of the number “ n ” entered from the keyboard (4<n<16). The factorial of a number is the product of all numbers from that number to 1. For example: 5! = 5*4*3*2*1 = 120
+Calculate by loop the factorial of the number ï¿½ n ï¿½ entered from the keyboard (4<n<16). The factorial of a number is the product of all numbers from that number to 1. For example: 5! = 5*4*3*2*1 = 120
 </p>
 
 <p>
@@ -22,7 +22,7 @@ Display a rectangle from *. Moreover, the height and width of the rectangle are 
 
 <p>
 <b> home_work_4_5 </b><br>
-Using a loop (only one) draw an “inverted triangle” shape from *. Moreover, the maximum height of this figure is entered from the keyboard. For example, the maximum height is 4.<br>
+Using a loop (only one) draw an ï¿½inverted triangleï¿½ shape from *. Moreover, the maximum height of this figure is entered from the keyboard. For example, the maximum height is 4.<br>
 <br>
 *<br>
 **<br>
@@ -36,7 +36,7 @@ Using a loop (only one) draw an “inverted triangle” shape from *. Moreover, the 
 <p>
 <b> home_work_4_6 </b><br>
 Use loops to display all prime numbers from 1 to 100 ().<br>
-A prime number is a number that is only divisible by 1 or itself. The first prime numbers are 2, 3, 5, 7…
+A prime number is a number that is only divisible by 1 or itself. The first prime numbers are 2, 3, 5, 7ï¿½
 </p>
 
 <p>
@@ -97,9 +97,9 @@ For example w=5<br>
 The user enters an integer from the keyboard int h = 4;<br>
 Need to draw a shape of the form<br>
 <br>
-&nbsp;&nbsp;&nbsp* 1 i<br>
-&nbsp;&nbsp;** 2<br>
-&nbsp;*** 3<br>
+&ensp;&ensp;&ensp;* 1 i<br>
+&ensp;&ensp;** 2<br>
+&ensp;*** 3<br>
 **** 4<br>
 1234<br>
 <br>
