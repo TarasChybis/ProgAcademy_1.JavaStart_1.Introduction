@@ -1,6 +1,4 @@
-//Напишите метод для создания в файле ASCII — арта, т. е. 
-//фигуры размером 40х40 символов заполненных  символами  
-//образующими узор.
+//Write a method to create in an ASCII file - art, that is, figure size 40x40 symbols filled with symbols forming a pattern.
 
 package home_work_8_6;
 
