@@ -1,4 +1,4 @@
-//Вывести на экран самое большое число из чисел, которые содержаться в файле
+//Display the largest number of numbers in a file.
 
 package lesson_8_5;
 
@@ -20,23 +20,22 @@ public class Lesson_8_5 {
 
 		System.out.println("Max = " + maxNumber);
 
-//Преобразование строки в число:
-//Парсинг - когда из текста получаем число
+//Convert string to number:
+//Parsing - when we get a number from the text.
 //		int z = Integer.parseInt("120");
 //		System.out.println(z);
-
 	}
 
 	public static int getMaxNumberFromString(String text) {
-//		1.Вернуть массив на основании элементов заданого файла
-//		Если нужно разбить строку на части есть метод split
-//		В качестве По чем разбивать используем Символ перевода строки System.lineSeparator()
-//		Создаем массив:
+//		1.Return an array based on the elements of a given file
+//		If you need to split a string into parts, there is a split method
+//		As By which symbol to break we use the Line feed character System.lineSeparator()
+//		Create an array:
 		String[] textNumbers = text.split(System.lineSeparator());
-//		Предполагаем, что самое большое число - это то, что хранится на нулевом элементе
-//		Из строки в число - Integer.parseInt()
+//		We assume that the largest number is what is stored on the zero element
+//		From string to number - Integer.parseInt()
 		int max = Integer.parseInt(textNumbers[0]);
-//		Проходимся по всем остальным элементам
+//		Go through all the other elements
 		for (int i = 0; i < textNumbers.length; i++) {
 			if (textNumbers[i].length() > 0) {
 				int temp = Integer.parseInt(textNumbers[i]);
@@ -59,5 +58,4 @@ public class Lesson_8_5 {
 		}
 		return result;
 	}
-
 }
