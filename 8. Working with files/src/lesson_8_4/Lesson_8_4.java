@@ -1,4 +1,4 @@
-//—читать запись с файла:
+//Read record from file:
 
 package lesson_8_4;
 
@@ -15,7 +15,6 @@ public class Lesson_8_4 {
 		String result = loadStringFromFile(file);
 
 	    System.out.println(result);
-	    
 	}
 
 	  public static String loadStringFromFile(File file) {
