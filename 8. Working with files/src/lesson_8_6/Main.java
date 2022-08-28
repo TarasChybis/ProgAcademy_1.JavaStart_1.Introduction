@@ -10,6 +10,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		
+//The address of our application's working directory:
 //		File workFolder = new File(".");
 //	    
 //	    File[] files = workFolder.listFiles();
@@ -39,7 +40,7 @@ public class Main {
 //	      e.printStackTrace();
 //	    }
 		
-//Удаление файлов и папок:
+//Deleting files and folders:
 //	    file1.delete();
 //	    file2.delete();
 //	    folder1.delete();
@@ -49,7 +50,7 @@ public class Main {
 //	      System.out.println(files[i] + "\t" + files[i].length());
 //	    }
 
-//Записать данные в файл
+//Write data to file:
 //	    File file = new File("hello.txt");
 //
 //	    try (PrintWriter pw = new PrintWriter(file)) {
@@ -60,7 +61,7 @@ public class Main {
 //	      e.printStackTrace();
 //	    }
 
-//Сохронить данные одномерного массива в файл
+//Save one-dimensional array data to a file:
 //		File file = new File("a.txt");
 //	    int[] array = new int[] { 1, 5, 7, -2 };
 //	    
@@ -78,7 +79,7 @@ public class Main {
 //	}
 //}
 
-//Считать запись с файла:		
+//Read record from file:		
 //		File file = new File("a.txt");
 //		
 //		String result = loadStringFromFile(file);
@@ -103,7 +104,7 @@ public class Main {
 //	  }
 //
 
-//Сохронить данные одномерного массива в файл
+//Save one-dimensional array data to a file:
 //	  public static void saveArrayToFile(File file, int[] array) {
 //	    try (PrintWriter pw = new PrintWriter(file)) {
 //	      for (int i = 0; i < array.length; i++) {
@@ -114,5 +115,3 @@ public class Main {
 //	    }
 	  }
 }
-		
-		
