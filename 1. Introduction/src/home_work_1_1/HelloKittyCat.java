@@ -1,3 +1,5 @@
+//Display the inscription "Hello, kitty cat!".
+
 package home_work_1_1;
 
 public class HelloKittyCat {
