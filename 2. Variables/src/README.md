@@ -4,11 +4,28 @@
 <b> home_work_2_1 </b><br>
 Write a program that reads a 5 digit number from keyboard and displays the digits from which it consists.<br> 
 For example: The number is read 54698<br>
-Output (displays): 	5
-            		4
-            		6
-            		9
-            		8
+<table>
+	<tr>
+		<td> Output (displays): </td>
+		<td> 5 </td>
+	</tr>
+	<tr>
+		<td> </td>
+		<td> 4 </td>
+	</tr>
+	<tr>
+		<td> </td>
+		<td> 6 </td>
+	</tr>
+	<tr>
+		<td> </td>
+		<td> 9 </td>
+	</tr>
+	<tr>
+		<td> </td>
+		<td> 8 </td>
+	</tr>
+</table>
 </p>
 
 <p>
