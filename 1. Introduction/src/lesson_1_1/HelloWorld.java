@@ -1,3 +1,5 @@
+//Display the inscription "Hello, World!".
+
 package lesson_1_1;
 
 public class HelloWorld {
